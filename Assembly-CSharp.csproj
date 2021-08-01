@@ -56,19 +56,32 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\SelectableObjects.cs" />
-    <Compile Include="Assets\CreateSwordman.cs" />
-    <Compile Include="Assets\Building.cs" />
-    <Compile Include="Assets\Barack.cs" />
-    <Compile Include="Assets\SelectableCollider.cs" />
-    <Compile Include="Assets\Swordsman.cs" />
-    <Compile Include="Assets\Unit.cs" />
-    <Compile Include="Assets\CameraMoove.cs" />
-    <Compile Include="Assets\Mine.cs" />
-    <Compile Include="Assets\Management.cs" />
-    <Compile Include="Assets\Resources.cs" />
-    <Compile Include="Assets\MenuBuilding.cs" />
-    <Compile Include="Assets\BuildingPiacer.cs" />
+    <Compile Include="Assets\Scripts\MainBuilding.cs" />
+    <Compile Include="Assets\Scripts\SelectableObjects.cs" />
+    <Compile Include="Assets\Scripts\CreateSwordman.cs" />
+    <Compile Include="Assets\Scripts\Building.cs" />
+    <Compile Include="Assets\Scripts\ButtonMine.cs" />
+    <Compile Include="Assets\Scripts\Barack.cs" />
+    <Compile Include="Assets\Scripts\SelectableCollider.cs" />
+    <Compile Include="Assets\Scripts\ButtonEnhancedMining.cs" />
+    <Compile Include="Assets\Scripts\MenuMine.cs" />
+    <Compile Include="Assets\Scripts\ThicknessTheSelectingFrame.cs" />
+    <Compile Include="Assets\Scripts\Swordsman.cs" />
+    <Compile Include="Assets\Scripts\AdText.cs" />
+    <Compile Include="Assets\Scripts\ButtonShield.cs" />
+    <Compile Include="Assets\Scripts\Unit.cs" />
+    <Compile Include="Assets\Scripts\MenuBarack.cs" />
+    <Compile Include="Assets\Scripts\CameraMoove.cs" />
+    <Compile Include="Assets\Scripts\Mine.cs" />
+    <Compile Include="Assets\Scripts\Management.cs" />
+    <Compile Include="Assets\Scripts\HealthBar.cs" />
+    <Compile Include="Assets\Scripts\ResourceManager.cs" />
+    <Compile Include="Assets\Scripts\EnemyCreator.cs" />
+    <Compile Include="Assets\Scripts\MenuBuilding.cs" />
+    <Compile Include="Assets\Scripts\BuildingPiacer.cs" />
+    <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\ButtonBarack.cs" />
+    <Compile Include="Assets\Scripts\EndGame.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
